@@ -136,6 +136,7 @@ header ul li a
 {
     position: relative;
     max-width: 600px;
+    margin-right: 50px;
 }
 
 .content .textBox h2
