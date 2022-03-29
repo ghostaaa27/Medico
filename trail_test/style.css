@@ -72,7 +72,7 @@ header .subdiv1
     position: relative;
     max-width: 80px;
     padding-left: 200px;
-    padding-top: 250px;
+    padding-top: 20px;
 }
 header .subdiv2
 {
@@ -80,7 +80,8 @@ header .subdiv2
     font-size: 2em;
     font-weight: 300;
     position: relative;
-    margin-right: 1000px;
+    margin-right: 900px;
+    margin-top: 30px;
 }
 
 header .header_login_button
