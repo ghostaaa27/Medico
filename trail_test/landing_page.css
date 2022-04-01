@@ -59,13 +59,6 @@ header
     align-items: center;
 }
 
-/* header  .logo
-{
-    position: relative;
-    max-width: 80px;
-    padding-left: 200px;
-    padding-top: 40px;
-} */
 
 header .subdiv1
 {
@@ -99,30 +92,7 @@ header .header_login_button
     margin-right: 200px;
 }
 
-/* header ul
-{
-    position: relative;
-    display: flex;
 
-    
-}
-
-header ul li
-{
-    list-style: none;
-    font-size: 20px;
-    margin:0 15px 10px 0;
-}
-
-header ul li a
-{
-    display: inline-block;
-    color: #333;
-    font-weight: 500;
-    margin-left: 40px;
-    text-decoration: none;
-
-} */
 
 .content
 {

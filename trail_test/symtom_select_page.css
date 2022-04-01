@@ -1,4 +1,314 @@
+@import url('https:fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+
+/* landing page css */
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins' , sans-serif;
+}
+
+body
+{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background: linear-gradient(135deg, #71b7e6, #71b7e6);
+
+}
+
+
+/* section
+{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+
+} */
+section
+{
+    max-width: 1500px;
+    width: 100%;
+    background: #fff;
+    padding: 150px 180px;
+    border-radius: 5px;
+    
+}
+
+
+
+header
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 60px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* header  .logo
+{
+    position: relative;
+    max-width: 80px;
+    padding-left: 200px;
+    padding-top: 40px;
+} */
+
+header .subdiv1
+{
+    position: relative;
+    max-width: 80px;
+    padding-left: 200px;
+    padding-top: 20px;
+}
+header .subdiv2
+{
+    color: #333;
+    font-size: 2em;
+    font-weight: 300;
+    position: relative;
+    margin-right: 900px;
+    margin-top: 30px;
+}
+
+header .header_login_button
+{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 20px;
+    background: #017143;
+    color: #fff;
+    border-radius: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+    position: relative;
+    margin-right: 200px;
+}
+
+/* header ul
+{
+    position: relative;
+    display: flex;
+
+    
+}
+
+header ul li
+{
+    list-style: none;
+    font-size: 20px;
+    margin:0 15px 10px 0;
+}
+
+header ul li a
+{
+    display: inline-block;
+    color: #333;
+    font-weight: 500;
+    margin-left: 40px;
+    text-decoration: none;
+
+} */
+
+.content
+{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content .textBox
+{
+    position: relative;
+    max-width: 600px;
+    margin-right: 50px;
+}
+.content .textBox p
+{
+    color: #333;
+    font-size: 2em;
+    line-height: 1.4em;
+    font-weight: 500;
+}
+
+
 .select {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 700px;
+    max-height: 700px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+    gap: 10px;
+  }
+  
+  .select__item {
+    padding: 10px;
+    cursor: pointer;
+    font-family: "Heebo", sans-serif;
+    text-align: center;
+    border-radius: 50px;
+    background: #eeeeee;
+    transition: background 0.1s;
+  }
+  
+ .select__item--selected {
+    background: #009578;
+    color: #ffffff;
+  }
+
+
+
+
+.content .imgBox
+{
+    width: 600px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+    margin-top: 50px;
+}
+
+/* .content .imgBox container
+{
+
+} */
+
+.container{
+
+	position: relative;
+	width:800px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	padding: 5px;
+	margin-top: 8%;
+}
+
+.container .card{
+	width:400px;
+	position: relative;
+	height: 470px;
+	background: #f0f0f0;
+	margin:-40px 10px;
+	padding: 20px 15px;
+	display:flex;
+	flex-direction: column;
+	box-shadow: 0.5px 10px #e6e6e6;
+	transition:0.3s ease-in-out;
+	margin-top: 5%;
+    border-radius: 50px;
+    align-items: center;
+}
+
+.container .card h2
+{
+    color: #333;
+    font-size: 2em;
+    line-height: 1.4em;
+    font-weight: 500;
+}
+
+
+.container .items
+{
+    display: inline-block;
+    margin-top: 25px;
+    padding: 8px 20px;
+    background: #009578;
+    color: #fff;
+    border-radius: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+    position: relative;
+}
+
+.container .predict_button
+{
+    display: inline-block;
+    margin-top: 25px;
+    padding: 8px 70px;
+    background: rgb(238, 145, 145);
+    color: #fff;
+    border-radius: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+    position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .select {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     max-width: 700px;
@@ -31,7 +341,6 @@
   @import url('https:fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
 
 
-/* body page css */
 
 *
 {
@@ -126,6 +435,8 @@ header .header_login_button
     margin-right: 100px;
 }
 
+
+
 .content .selected_items
 {
     width: 600px;
@@ -134,4 +445,4 @@ header .header_login_button
     padding-right: 50px;
     margin-top: 50px;
 }
-
+ */
