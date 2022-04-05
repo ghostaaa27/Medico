@@ -168,8 +168,8 @@ header .header_login_button
 .content .homepagetextBox h2
 {
     color: #333;
-    font-size: 4em;
-    line-height: 1.4em;
+    font-size: 3.5em;
+    line-height: 1.2em;
     font-weight: 500;
 }
 
@@ -319,6 +319,84 @@ header .header_login_button
 }
 
 .container .predict_button
+{
+    display: inline-block;
+    margin-top: 25px;
+    padding: 8px 70px;
+    background: rgb(238, 145, 145);
+    color: #fff;
+    border-radius: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+    position: relative;
+}
+
+
+
+
+
+
+
+
+/* result page */
+
+
+
+.container2{
+
+	position: absolute;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	padding: 5px;
+    right: 30%;
+    top: 100%;
+}
+
+.container2 .card2{
+	width:400px;
+	position: relative;
+	height: 470px;
+	background: #f0f0f0;
+	margin:-40px 10px;
+	padding: 20px 15px;
+	display:flex;
+	flex-direction: column;
+	box-shadow: 0.5px 10px #e6e6e6;
+	transition:0.3s ease-in-out;
+	margin-top: 5%;
+    border-radius: 50px;
+    align-items: center;
+}
+
+.container2 .card2 h2
+{
+    color: #333;
+    font-size: 2em;
+    line-height: 1.4em;
+    font-weight: 500;
+}
+
+.container2 .card2 h3
+{
+    color: rgb(51, 51, 51);
+    font-size: 1.4em;
+    line-height: 1.4em;
+    font-weight: 500;
+}
+
+.container2 .card2 .a_class
+{
+    color: #009578;
+    font-size: 1.3em;
+    line-height: 1.4em;
+    font-weight: 500;
+}
+
+
+
+.container2 .consult_doctor
 {
     display: inline-block;
     margin-top: 25px;

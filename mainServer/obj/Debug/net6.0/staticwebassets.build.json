@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "+BcR2NmPOIv06xbm87hkjyAx5dGrf8kSuoI/wPyL6UQ=",
+  "Hash": "8lAm3PrbL67Rae4l8Eqq/BbdSRAZQXZkAl+wlbpW7Lk=",
   "Source": "MediShare",
   "BasePath": "_content/MediShare",
   "Mode": "Default",
@@ -17,23 +17,6 @@
   ],
   "Assets": [
     {
-      "Identity": "/home/ghostrideraaa/WebApplications/Medico/mainServer/wwwroot/css/home_page.css",
-      "SourceId": "MediShare",
-      "SourceType": "Discovered",
-      "ContentRoot": "/home/ghostrideraaa/WebApplications/Medico/mainServer/wwwroot/",
-      "BasePath": "_content/MediShare",
-      "RelativePath": "css/home_page.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/css/home_page.css"
-    },
-    {
       "Identity": "/home/ghostrideraaa/WebApplications/Medico/mainServer/wwwroot/css/style1.css",
       "SourceId": "MediShare",
       "SourceType": "Discovered",
@@ -49,23 +32,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/css/style1.css"
-    },
-    {
-      "Identity": "/home/ghostrideraaa/WebApplications/Medico/mainServer/wwwroot/css/symtom_select_page.css",
-      "SourceId": "MediShare",
-      "SourceType": "Discovered",
-      "ContentRoot": "/home/ghostrideraaa/WebApplications/Medico/mainServer/wwwroot/",
-      "BasePath": "_content/MediShare",
-      "RelativePath": "css/symtom_select_page.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/css/symtom_select_page.css"
     },
     {
       "Identity": "/home/ghostrideraaa/WebApplications/Medico/mainServer/wwwroot/Dashboard/UserDashboard/orders.html",

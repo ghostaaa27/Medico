@@ -16336,6 +16336,11 @@
       "FilePath": "/home/ghostrideraaa/WebApplications/Medico/mainServer/Views/home_page.cshtml",
       "TargetPath": "Views\\home_page.cshtml",
       "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/ghostrideraaa/WebApplications/Medico/mainServer/Views/result_page.cshtml",
+      "TargetPath": "Views\\result_page.cshtml",
+      "FileKind": "mvc"
     }
   ],
   "SerializationFormat": "0.2"
