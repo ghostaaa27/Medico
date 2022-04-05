@@ -5,9 +5,8 @@ namespace mainServer.Controllers
 {
     public class SymtomSelectController : BaseController
     {
-        public IActionResult Index()
-        {
-            return View("~/Views/");
-        }
+       public IActionResult Index(){
+           return View("~/Views/symtom_select_page.cshtml");
+       }
     }
 }

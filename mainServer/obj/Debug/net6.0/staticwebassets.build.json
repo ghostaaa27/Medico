@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "fQVpjaJwYSsnXlbgXgiLKqxL7IoA3vmJBLk/eCSK1ug=",
+  "Hash": "+BcR2NmPOIv06xbm87hkjyAx5dGrf8kSuoI/wPyL6UQ=",
   "Source": "MediShare",
   "BasePath": "_content/MediShare",
   "Mode": "Default",
@@ -17,12 +17,12 @@
   ],
   "Assets": [
     {
-      "Identity": "/home/ghostrideraaa/WebApplications/Medico/mainServer/wwwroot/css/landing_page.css",
+      "Identity": "/home/ghostrideraaa/WebApplications/Medico/mainServer/wwwroot/css/home_page.css",
       "SourceId": "MediShare",
       "SourceType": "Discovered",
       "ContentRoot": "/home/ghostrideraaa/WebApplications/Medico/mainServer/wwwroot/",
       "BasePath": "_content/MediShare",
-      "RelativePath": "css/landing_page.css",
+      "RelativePath": "css/home_page.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -31,7 +31,41 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/css/landing_page.css"
+      "OriginalItemSpec": "wwwroot/css/home_page.css"
+    },
+    {
+      "Identity": "/home/ghostrideraaa/WebApplications/Medico/mainServer/wwwroot/css/style1.css",
+      "SourceId": "MediShare",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/ghostrideraaa/WebApplications/Medico/mainServer/wwwroot/",
+      "BasePath": "_content/MediShare",
+      "RelativePath": "css/style1.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/style1.css"
+    },
+    {
+      "Identity": "/home/ghostrideraaa/WebApplications/Medico/mainServer/wwwroot/css/symtom_select_page.css",
+      "SourceId": "MediShare",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/ghostrideraaa/WebApplications/Medico/mainServer/wwwroot/",
+      "BasePath": "_content/MediShare",
+      "RelativePath": "css/symtom_select_page.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/symtom_select_page.css"
     },
     {
       "Identity": "/home/ghostrideraaa/WebApplications/Medico/mainServer/wwwroot/Dashboard/UserDashboard/orders.html",

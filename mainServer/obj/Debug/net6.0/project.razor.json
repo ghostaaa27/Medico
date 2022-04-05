@@ -16308,6 +16308,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/home/ghostrideraaa/WebApplications/Medico/mainServer/Views/symtom_select_page.cshtml",
+      "TargetPath": "Views\\symtom_select_page.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/home/ghostrideraaa/WebApplications/Medico/mainServer/Views/Auth/Login.cshtml",
       "TargetPath": "Views\\Auth\\Login.cshtml",
       "FileKind": "mvc"
@@ -16325,6 +16330,11 @@
     {
       "FilePath": "/home/ghostrideraaa/WebApplications/Medico/mainServer/Views/landing_page.cshtml",
       "TargetPath": "Views\\landing_page.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/ghostrideraaa/WebApplications/Medico/mainServer/Views/home_page.cshtml",
+      "TargetPath": "Views\\home_page.cshtml",
       "FileKind": "mvc"
     }
   ],
