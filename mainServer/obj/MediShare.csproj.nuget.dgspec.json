@@ -1,0 +1,93 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/ghostrideraaa/WebApplications/Medico/mainServer/MediShare.csproj": {}
+  },
+  "projects": {
+    "/home/ghostrideraaa/WebApplications/Medico/mainServer/MediShare.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/ghostrideraaa/WebApplications/Medico/mainServer/MediShare.csproj",
+        "projectName": "MediShare",
+        "projectPath": "/home/ghostrideraaa/WebApplications/Medico/mainServer/MediShare.csproj",
+        "packagesPath": "/home/ghostrideraaa/.nuget/packages/",
+        "outputPath": "/home/ghostrideraaa/WebApplications/Medico/mainServer/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/ghostrideraaa/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "BCrypt.Net-Core": {
+              "target": "Package",
+              "version": "[1.6.0, )"
+            },
+            "MailKit": {
+              "target": "Package",
+              "version": "[2.12.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.23, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.11.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.201/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

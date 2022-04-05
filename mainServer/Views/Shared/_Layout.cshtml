@@ -1,0 +1,33 @@
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Medico Landing Page</title>
+        <link rel="stylesheet" href="css/landing_page.css">
+    </head>
+</html>
+
+<body>
+    <section>
+        <header>
+            <div class="subdiv1">
+                <a href="#" class="logo"><img src="websiteimages/logo.png" alt="logo.png" height="100" width="100"></a>
+            </div>
+            <div class="subdiv2">
+                <p>Medico</p>
+            </div>
+            
+            <a href="/Login" class="header_login_button">Log in</a>
+        </header>
+
+        <div class="content">
+            @RenderBody();
+        </div>
+
+    </section>
+</body>

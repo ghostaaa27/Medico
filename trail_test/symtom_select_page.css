@@ -23,18 +23,6 @@ body
 }
 
 
-/* section
-{
-    position: relative;
-    width: 100%;
-    min-height: 100vh;
-    padding: 100px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background: #fff;
-
-} */
 section
 {
     max-width: 1500px;
@@ -59,13 +47,6 @@ header
     align-items: center;
 }
 
-/* header  .logo
-{
-    position: relative;
-    max-width: 80px;
-    padding-left: 200px;
-    padding-top: 40px;
-} */
 
 header .subdiv1
 {
@@ -99,30 +80,7 @@ header .header_login_button
     margin-right: 200px;
 }
 
-/* header ul
-{
-    position: relative;
-    display: flex;
 
-    
-}
-
-header ul li
-{
-    list-style: none;
-    font-size: 20px;
-    margin:0 15px 10px 0;
-}
-
-header ul li a
-{
-    display: inline-block;
-    color: #333;
-    font-weight: 500;
-    margin-left: 40px;
-    text-decoration: none;
-
-} */
 
 .content
 {
@@ -259,190 +217,3 @@ header ul li a
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* .select {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    max-width: 700px;
-    max-height: 700px;
-    font-weight: 500;
-    letter-spacing: 1px;
-    text-decoration: none;
-    gap: 10px;
-  }
-  
-  .select__item {
-    padding: 10px;
-    cursor: pointer;
-    font-family: "Heebo", sans-serif;
-    text-align: center;
-    border-radius: 50px;
-    background: #eeeeee;
-    transition: background 0.1s;
-  }
-  
-  .select__item--selected {
-    background: #009578;
-    color: #ffffff;
-  }
-  
-
-
-
-
-  @import url('https:fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
-
-
-
-*
-{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins' , sans-serif;
-}
-
-body
-{
-    display: flex;
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-    background: linear-gradient(135deg, #71b7e6, #71b7e6);
-
-}
-
-
-
-section
-{
-    max-width: 1500px;
-    width: 100%;
-    background: #fff;
-    padding: 380px 500px;
-    border-radius: 5px;
-    
-}
-
-
-
-header
-{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 60px 100px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-header .subdiv1
-{
-    position: relative;
-    max-width: 80px;
-    padding-left: 200px;
-    padding-top: 20px;
-}
-header .subdiv2
-{
-    color: #333;
-    font-size: 2em;
-    font-weight: 300;
-    position: relative;
-    margin-right: 900px;
-    margin-top: 30px;
-}
-
-header .header_login_button
-{
-    display: inline-block;
-    margin-top: 20px;
-    padding: 8px 20px;
-    background: #017143;
-    color: #fff;
-    border-radius: 40px;
-    font-weight: 500;
-    letter-spacing: 1px;
-    text-decoration: none;
-    position: relative;
-    margin-right: 200px;
-}
-
-
-.content
-{
-    position: relative;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.content .symtom_list
-{
-    position: relative;
-    max-width: 800px;
-    margin-right: 100px;
-}
-
-
-
-.content .selected_items
-{
-    width: 600px;
-    display: flex;
-    justify-content: flex-end;
-    padding-right: 50px;
-    margin-top: 50px;
-}
- */

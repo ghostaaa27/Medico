@@ -1,0 +1,40 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = MediShare
+build_property.RootNamespace = MediShare
+build_property.ProjectDir = /home/ghostrideraaa/WebApplications/Medico/mainServer/
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /home/ghostrideraaa/WebApplications/Medico/mainServer
+build_property._RazorSourceGeneratorDebug = 
+
+[/home/ghostrideraaa/WebApplications/Medico/mainServer/Views/Auth/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQXV0aC9Mb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/ghostrideraaa/WebApplications/Medico/mainServer/Views/Auth/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQXV0aC9SZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/ghostrideraaa/WebApplications/Medico/mainServer/Views/landing_page.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvbGFuZGluZ19wYWdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/ghostrideraaa/WebApplications/Medico/mainServer/Views/Shared/LoginRegisterLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0xvZ2luUmVnaXN0ZXJMYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/ghostrideraaa/WebApplications/Medico/mainServer/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/ghostrideraaa/WebApplications/Medico/mainServer/wwwroot/Extensions/RegistrationView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = d3d3cm9vdC9FeHRlbnNpb25zL1JlZ2lzdHJhdGlvblZpZXcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
