@@ -23,6 +23,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQXV0aC9SZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[/home/ghostrideraaa/WebApplications/Medico/mainServer/Views/doctor_list_page.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvZG9jdG9yX2xpc3RfcGFnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/home/ghostrideraaa/WebApplications/Medico/mainServer/Views/home_page.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvaG9tZV9wYWdlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

@@ -3,16 +3,14 @@
 
 /* landing page css */
 
-*
-{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins' , sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
-body
-{
+body {
     display: flex;
     height: 100vh;
     justify-content: center;
@@ -23,8 +21,7 @@ body
 }
 
 
-section
-{
+section {
     max-width: 1200px;
     max-height: 900px;
     width: 100%;
@@ -33,13 +30,12 @@ section
     padding: 60px 150px;
     border-radius: 5px;
     position: absolute;
-    
+
 }
 
 
 
-header
-{
+header {
     position: absolute;
     top: 0;
     left: 0;
@@ -51,15 +47,14 @@ header
 }
 
 
-header .subdiv1
-{
+header .subdiv1 {
     position: absolute;
     /* max-width: 80px;
     padding-left: 200px;
     padding-top: 20px; */
 }
-header .subdiv2
-{
+
+header .subdiv2 {
     color: #333;
     font-size: 2em;
     font-weight: 300;
@@ -67,8 +62,7 @@ header .subdiv2
     right: 75%;
 }
 
-header .header_login_button
-{
+header .header_login_button {
     display: inline-block;
     padding: 8px 20px;
     background: #017143;
@@ -80,47 +74,48 @@ header .header_login_button
     position: absolute;
     left: 90%;
 }
+.header_login_button:hover {
+    background-color: #009578;
+    color: white;
+    transition: .5s;
+    cursor: pointer;
+}
 
 
 
-.content
-{
+.content {
     position: relative;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.content .textBox
-{
+
+.content .textBox {
     position: relative;
     max-width: 600px;
     margin-right: 50px;
 }
 
-.content .textBox h2
-{
+.content .textBox h2 {
     color: #333;
     font-size: 3.1em;
     line-height: 1.4em;
     font-weight: 500;
 }
 
-.content .textBox h2 span
-{
+.content .textBox h2 span {
     color: #017143;
     font-size: 1.2em;
     font-weight: 700;
 }
 
-.content .textBox h4
-{
-     color: #333;
-     font-size: 1.6em;
+.content .textBox h4 {
+    color: #333;
+    font-size: 1.6em;
 }
 
-.content .textBox a
-{
+.content .textBox a {
     display: inline-block;
     margin-top: 20px;
     padding: 8px 20px;
@@ -132,8 +127,7 @@ header .header_login_button
     text-decoration: none;
 }
 
-.content .imgBox
-{
+.content .imgBox {
     width: 500px;
     display: flex;
     justify-content: flex-end;
@@ -141,8 +135,7 @@ header .header_login_button
     margin-top: 50px;
 }
 
-.content .imgBox landing_page_image
-{
+.content .imgBox landing_page_image {
     max-width: 300px;
 }
 
@@ -158,30 +151,26 @@ header .header_login_button
 
 /* for homepage */
 
-.content .homepagetextBox
-{
+.content .homepagetextBox {
     max-width: 600px;
     margin-right: 50px;
 }
 
 
-.content .homepagetextBox h2
-{
+.content .homepagetextBox h2 {
     color: #333;
     font-size: 3.5em;
     line-height: 1.2em;
     font-weight: 500;
 }
 
-.content .homepagetextBox h2 span
-{
+.content .homepagetextBox h2 span {
     color: #017143;
     font-size: 1.1em;
     font-weight: 900;
 }
 
-.content .homepagetextBox h3
-{
+.content .homepagetextBox h3 {
     color: #333;
     font-size: 2em;
     line-height: 1.4em;
@@ -189,8 +178,7 @@ header .header_login_button
 }
 
 
-.content .homepagetextBox a
-{
+.content .homepagetextBox a {
     display: inline-block;
     margin-top: 20px;
     padding: 8px 20px;
@@ -210,15 +198,13 @@ header .header_login_button
 
 /* for symtom select page */
 
-.content .txtBox
-{
+.content .txtBox {
     position: absolute;
     max-width: 600px;
     margin-right: 50px;
 }
 
-.content .txtBox p
-{
+.content .txtBox p {
     color: #333;
     font-size: 1.4em;
     line-height: 1.4em;
@@ -235,9 +221,9 @@ header .header_login_button
     letter-spacing: 1px;
     text-decoration: none;
     gap: 10px;
-  }
-  
-  .select__item {
+}
+
+.select__item {
     padding: 10px;
     cursor: pointer;
     font-family: "Heebo", sans-serif;
@@ -245,18 +231,17 @@ header .header_login_button
     border-radius: 50px;
     background: #eeeeee;
     transition: background 0.1s;
-  }
-  
- .select__item--selected {
+}
+
+.select__item--selected {
     background: #009578;
     color: #ffffff;
-  }
+}
 
 
 
 
-.content .selected_items
-{
+.content .selected_items {
     width: 600px;
     display: flex;
     justify-content: flex-end;
@@ -266,37 +251,36 @@ header .header_login_button
 
 
 
-.container{
+.container {
 
-	position: relative;
-	width:800px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-wrap: wrap;
-	padding: 5px;
-	/* margin-top: 8%; */
+    position: relative;
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 5px;
+    /* margin-top: 8%; */
     left: 80%;
 }
 
-.container .card{
-	width:400px;
-	position: relative;
-	height: 470px;
-	background: #f0f0f0;
-	margin:-40px 10px;
-	padding: 20px 15px;
-	display:flex;
-	flex-direction: column;
-	box-shadow: 0.5px 10px #e6e6e6;
-	transition:0.3s ease-in-out;
-	margin-top: 5%;
+.container .card {
+    width: 400px;
+    position: relative;
+    height: 470px;
+    background: #f0f0f0;
+    margin: -40px 10px;
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0.5px 10px #e6e6e6;
+    transition: 0.3s ease-in-out;
+    margin-top: 5%;
     border-radius: 50px;
     align-items: center;
 }
 
-.container .card h2
-{
+.container .card h2 {
     color: #333;
     font-size: 2em;
     line-height: 1.4em;
@@ -304,8 +288,7 @@ header .header_login_button
 }
 
 
-.container .items
-{
+.container .items {
     display: inline-block;
     margin-top: 25px;
     padding: 8px 20px;
@@ -318,8 +301,7 @@ header .header_login_button
     position: relative;
 }
 
-.container .predict_button
-{
+.container .predict_button {
     display: inline-block;
     margin-top: 25px;
     padding: 8px 70px;
@@ -330,6 +312,13 @@ header .header_login_button
     letter-spacing: 1px;
     text-decoration: none;
     position: relative;
+}
+
+.predict_button:hover {
+    background-color: #009578;
+    color: white;
+    transition: .5s;
+    cursor: pointer;
 }
 
 
@@ -343,51 +332,48 @@ header .header_login_button
 
 
 
-.container2{
+.container2 {
 
-	position: absolute;
-	display: flex;
-	align-items: center;
-	flex-wrap: wrap;
-	padding: 5px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 5px;
     right: 30%;
     top: 100%;
 }
 
-.container2 .card2{
-	width:400px;
-	position: relative;
-	height: 470px;
-	background: #f0f0f0;
-	margin:-40px 10px;
-	padding: 20px 15px;
-	display:flex;
-	flex-direction: column;
-	box-shadow: 0.5px 10px #e6e6e6;
-	transition:0.3s ease-in-out;
-	margin-top: 5%;
+.container2 .card2 {
+    width: 400px;
+    position: relative;
+    height: 470px;
+    background: #f0f0f0;
+    margin: -40px 10px;
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0.5px 10px #e6e6e6;
+    transition: 0.3s ease-in-out;
+    margin-top: 5%;
     border-radius: 50px;
     align-items: center;
 }
 
-.container2 .card2 h2
-{
+.container2 .card2 h2 {
     color: #333;
     font-size: 2em;
     line-height: 1.4em;
     font-weight: 500;
 }
 
-.container2 .card2 h3
-{
+.container2 .card2 h3 {
     color: rgb(51, 51, 51);
     font-size: 1.4em;
     line-height: 1.4em;
     font-weight: 500;
 }
 
-.container2 .card2 .a_class
-{
+.container2 .card2 .a_class {
     color: #009578;
     font-size: 1.3em;
     line-height: 1.4em;
@@ -396,8 +382,7 @@ header .header_login_button
 
 
 
-.container2 .consult_doctor
-{
+.container2 .consult_doctor {
     display: inline-block;
     margin-top: 25px;
     padding: 8px 70px;
@@ -408,4 +393,70 @@ header .header_login_button
     letter-spacing: 1px;
     text-decoration: none;
     position: relative;
+}
+
+.consult_doctor:hover {
+    background-color: #009578;
+    color: white;
+    transition: .5s;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+/* for doctor list */
+
+.container3 {
+
+    position: absolute;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+
+.container3 .card3 {
+    width: 100%;
+    display: inline-block;
+    box-shadow: 1px 1px 5px black;
+    border-radius: 5px;
+    margin: 2%;
+}
+
+.container3 .doctorlisttitle {
+    text-align: center;
+
+}
+
+.container3 .des {
+    padding: 3px;
+    text-align: center;
+    padding-top: 10px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.container3 a {
+    display: inline-block;
+    margin-top: 5px;
+    padding: 8px 70px;
+    background: rgb(238, 145, 145);
+    color: #fff;
+    border-radius: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+    position: relative;
+}
+
+a:hover {
+    background-color: #009578;
+    color: white;
+    transition: .5s;
+    cursor: pointer;
 }
