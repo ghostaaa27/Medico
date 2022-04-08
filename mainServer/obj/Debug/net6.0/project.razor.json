@@ -16328,6 +16328,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/home/ghostrideraaa/WebApplications/Medico/mainServer/Views/doctor_details_page.cshtml",
+      "TargetPath": "Views\\doctor_details_page.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/home/ghostrideraaa/WebApplications/Medico/mainServer/Views/Shared/_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
