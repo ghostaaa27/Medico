@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "8lAm3PrbL67Rae4l8Eqq/BbdSRAZQXZkAl+wlbpW7Lk=",
+  "Hash": "0g4DBXsBew/wlG9o5d7MjAbVsNzli9K7nHTqfc+vlkQ=",
   "Source": "MediShare",
   "BasePath": "_content/MediShare",
   "Mode": "Default",
@@ -3959,6 +3959,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/plugins/timepicker/bootstrap-timepicker.min.js"
+    },
+    {
+      "Identity": "/home/ghostrideraaa/WebApplications/Medico/mainServer/wwwroot/websiteimages/doctor.png",
+      "SourceId": "MediShare",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/ghostrideraaa/WebApplications/Medico/mainServer/wwwroot/",
+      "BasePath": "_content/MediShare",
+      "RelativePath": "websiteimages/doctor.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/websiteimages/doctor.png"
     },
     {
       "Identity": "/home/ghostrideraaa/WebApplications/Medico/mainServer/wwwroot/websiteimages/landing_page_image.png",

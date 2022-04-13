@@ -553,6 +553,10 @@ a:hover {
     font-weight: 500;
 }
 
+.checked {
+    color: #009578;
+  }
+
 
 
 
