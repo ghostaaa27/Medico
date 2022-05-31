@@ -30,7 +30,7 @@ Layout = "~/Views/Shared/_Layout.cshtml";
             <br>
             <div id="sitemList"></div>
             @* <a href="/ResultPage" class="predict_button">Predict</a> *@
-            <a onclick="SymtomList()" class="predict_button">Predict</a>
+            <a id = "predict_button_id" onclick="SymtomList()" class="predict_button">Predict</a>
         </div>
     </div>
 
@@ -162,11 +162,10 @@ function SymtomList(){
             data: {arrData: selectedItems },
             success: function(result) {
                 console.log(result)
-                
+                window.location.href = "https://localhost:5001/ResultPage?disease="+result;
             },
             error: function() {
-              @* alert("email already exists"); *@
-                
+              alert("I am sorry something wrong");  
             }
         });
 }
