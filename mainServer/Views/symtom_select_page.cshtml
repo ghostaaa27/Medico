@@ -28,6 +28,7 @@ Layout = "~/Views/Shared/_Layout.cshtml";
         <div class="card">
             <h2>Selected Symtoms</h2>
             <br>
+            <div id="sitemList"></div>
             @* <a href="/ResultPage" class="predict_button">Predict</a> *@
             <a onclick="SymtomList()" class="predict_button">Predict</a>
         </div>
@@ -91,6 +92,7 @@ Layout = "~/Views/Shared/_Layout.cshtml";
             var selected_val = this.originalSelect.querySelectorAll("option")[index].textContent;
             @* console.log(typeof(selected_val)); *@
             selectedItems.push(selected_val);
+            selectedItemList();
 
         }
 
@@ -103,7 +105,13 @@ Layout = "~/Views/Shared/_Layout.cshtml";
             var selected_val = this.originalSelect.querySelectorAll("option")[index].textContent;
             @* console.log(selected_val); *@
             var sitem_idx = selectedItems.indexOf(selected_val);
-            selectedItems.splice(sitem_idx, sitem_idx);
+            if(sitem_idx == 0){
+                selectedItems.splice(sitem_idx, sitem_idx+1);
+            }
+            else{
+                selectedItems.splice(sitem_idx, sitem_idx);
+            }
+            selectedItemList();
         }
     }
 
@@ -117,18 +125,44 @@ function listPrint(){
 } *@
 
 
+function selectedItemList(){
+     
+    var sitemList = $("#sitemList");
+    sitemList.empty();
+
+    $.each(selectedItems, function(i, item) {
+        $('<div >').append(
+            $('<a class="items">').text(item)
+        ).appendTo(sitemList)
+    });
+}
+
+function selectedItemListDel(){
+     
+    var sitemList = $("#sitemList");
+    sitemList.empty();
+    console.log("selectedItemList")
+
+    $.each(selectedItems, function(i, item) {
+        $('<div >').append(
+            $('<a class="items">').text(item)
+        ).appendTo(sitemList)
+    });
+}
 
 
-SymtomList()
+
+@* SymtomList() *@
 
 function SymtomList(){
 
     $.ajax({
             url: "http://127.0.0.1:8000/predicted_disease",
             type: "POST",
-            data: {arrData: cars },
+            data: {arrData: selectedItems },
             success: function(result) {
                 console.log(result)
+                
             },
             error: function() {
               @* alert("email already exists"); *@
