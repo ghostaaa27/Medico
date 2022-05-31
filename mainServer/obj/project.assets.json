@@ -5696,19 +5696,19 @@
     ]
   },
   "packageFolders": {
-    "/home/ghostrideraaa/.nuget/packages/": {}
+    "C:\\Users\\alami\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/ghostrideraaa/WebApplications/Medico/mainServer/MediShare.csproj",
+      "projectUniqueName": "C:\\projects\\Medico\\mainServer\\MediShare.csproj",
       "projectName": "MediShare",
-      "projectPath": "/home/ghostrideraaa/WebApplications/Medico/mainServer/MediShare.csproj",
-      "packagesPath": "/home/ghostrideraaa/.nuget/packages/",
-      "outputPath": "/home/ghostrideraaa/WebApplications/Medico/mainServer/obj/",
+      "projectPath": "C:\\projects\\Medico\\mainServer\\MediShare.csproj",
+      "packagesPath": "C:\\Users\\alami\\.nuget\\packages\\",
+      "outputPath": "C:\\projects\\Medico\\mainServer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/ghostrideraaa/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\alami\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -5779,7 +5779,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.202/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
       }
     }
   }

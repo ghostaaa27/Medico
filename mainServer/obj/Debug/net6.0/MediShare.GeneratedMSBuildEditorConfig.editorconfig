@@ -8,53 +8,53 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MediShare
 build_property.RootNamespace = MediShare
-build_property.ProjectDir = /home/ghostrideraaa/WebApplications/Medico/mainServer/
+build_property.ProjectDir = C:\projects\Medico\mainServer\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /home/ghostrideraaa/WebApplications/Medico/mainServer
+build_property.MSBuildProjectDirectory = C:\projects\Medico\mainServer
 build_property._RazorSourceGeneratorDebug = 
 
-[/home/ghostrideraaa/WebApplications/Medico/mainServer/Views/Auth/Login.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQXV0aC9Mb2dpbi5jc2h0bWw=
+[C:/projects/Medico/mainServer/Views/Auth/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/ghostrideraaa/WebApplications/Medico/mainServer/Views/Auth/Register.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQXV0aC9SZWdpc3Rlci5jc2h0bWw=
+[C:/projects/Medico/mainServer/Views/Auth/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/ghostrideraaa/WebApplications/Medico/mainServer/Views/doctor_details_page.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvZG9jdG9yX2RldGFpbHNfcGFnZS5jc2h0bWw=
+[C:/projects/Medico/mainServer/Views/doctor_details_page.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcZG9jdG9yX2RldGFpbHNfcGFnZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/ghostrideraaa/WebApplications/Medico/mainServer/Views/doctor_list_page.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvZG9jdG9yX2xpc3RfcGFnZS5jc2h0bWw=
+[C:/projects/Medico/mainServer/Views/doctor_list_page.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcZG9jdG9yX2xpc3RfcGFnZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/ghostrideraaa/WebApplications/Medico/mainServer/Views/home_page.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvaG9tZV9wYWdlLmNzaHRtbA==
+[C:/projects/Medico/mainServer/Views/home_page.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcaG9tZV9wYWdlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/ghostrideraaa/WebApplications/Medico/mainServer/Views/landing_page.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvbGFuZGluZ19wYWdlLmNzaHRtbA==
+[C:/projects/Medico/mainServer/Views/landing_page.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcbGFuZGluZ19wYWdlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/ghostrideraaa/WebApplications/Medico/mainServer/Views/result_page.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvcmVzdWx0X3BhZ2UuY3NodG1s
+[C:/projects/Medico/mainServer/Views/result_page.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NccmVzdWx0X3BhZ2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/ghostrideraaa/WebApplications/Medico/mainServer/Views/Shared/LoginRegisterLayout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0xvZ2luUmVnaXN0ZXJMYXlvdXQuY3NodG1s
+[C:/projects/Medico/mainServer/Views/Shared/LoginRegisterLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXExvZ2luUmVnaXN0ZXJMYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/ghostrideraaa/WebApplications/Medico/mainServer/Views/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+[C:/projects/Medico/mainServer/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/ghostrideraaa/WebApplications/Medico/mainServer/Views/symtom_select_page.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3Mvc3ltdG9tX3NlbGVjdF9wYWdlLmNzaHRtbA==
+[C:/projects/Medico/mainServer/Views/symtom_select_page.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3Ncc3ltdG9tX3NlbGVjdF9wYWdlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/ghostrideraaa/WebApplications/Medico/mainServer/wwwroot/Extensions/RegistrationView.cshtml]
-build_metadata.AdditionalFiles.TargetPath = d3d3cm9vdC9FeHRlbnNpb25zL1JlZ2lzdHJhdGlvblZpZXcuY3NodG1s
+[C:/projects/Medico/mainServer/wwwroot/Extensions/RegistrationView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = d3d3cm9vdFxFeHRlbnNpb25zXFJlZ2lzdHJhdGlvblZpZXcuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

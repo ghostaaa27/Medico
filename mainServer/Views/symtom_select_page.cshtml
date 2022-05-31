@@ -27,12 +27,9 @@ Layout = "~/Views/Shared/_Layout.cshtml";
 
         <div class="card">
             <h2>Selected Symtoms</h2>
-            <a class="items">Fever</a>
-            <a class="items">Headache</a>
-            <a class="items">Aches</a>
-            <a class="items">Tiredness</a>
             <br>
-            <a href="/ResultPage" class="predict_button">Predict</a>
+            @* <a href="/ResultPage" class="predict_button">Predict</a> *@
+            <a onclick="SymtomList()" class="predict_button">Predict</a>
         </div>
     </div>
 
@@ -42,12 +39,10 @@ Layout = "~/Views/Shared/_Layout.cshtml";
 
 
 
-
-
-
-
-
 <script>
+
+    selectedItems = [];
+    
     class CustomSelect {
         constructor(originalSelect) {
             this.originalSelect = originalSelect;
@@ -94,7 +89,9 @@ Layout = "~/Views/Shared/_Layout.cshtml";
             itemElement.classList.add("select__item--selected");
 
             var selected_val = this.originalSelect.querySelectorAll("option")[index].textContent;
-            //   console.log(typeof(selected_val));
+            @* console.log(typeof(selected_val)); *@
+            selectedItems.push(selected_val);
+
         }
 
         _deselect(itemElement) {
@@ -102,12 +99,45 @@ Layout = "~/Views/Shared/_Layout.cshtml";
 
             this.originalSelect.querySelectorAll("option")[index].selected = false;
             itemElement.classList.remove("select__item--selected");
+
+            var selected_val = this.originalSelect.querySelectorAll("option")[index].textContent;
+            @* console.log(selected_val); *@
+            var sitem_idx = selectedItems.indexOf(selected_val);
+            selectedItems.splice(sitem_idx, sitem_idx);
         }
     }
 
     document.querySelectorAll(".custom-select").forEach((selectElement) => {
         new CustomSelect(selectElement);
     });
+
+@* 
+function listPrint(){
+    console.log(selectedItems);
+} *@
+
+
+
+
+SymtomList()
+
+function SymtomList(){
+
+    $.ajax({
+            url: "http://127.0.0.1:8000/predicted_disease",
+            type: "POST",
+            data: {arrData: cars },
+            success: function(result) {
+                console.log(result)
+            },
+            error: function() {
+              @* alert("email already exists"); *@
+                
+            }
+        });
+}
+
+
 
 
 
