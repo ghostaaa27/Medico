@@ -16,6 +16,16 @@ Layout = "~/Views/Shared/_Layout.cshtml";
             <option value="sql">Tiredness</option>
             <option value="sql">Headache</option>
             <option value="sql">Aches</option>
+            <option value="sql">Itching</option>
+            <option value="sql">Skin Rash</option>
+            <option value="sql">Shivering</option>
+            <option value="sql">Chills</option>
+            <option value="sql">Joint Pain</option>
+            <option value="sql">Fatigue</option>
+            <option value="sql">Nausea</option>
+            <option value="sql">Loss of Appetite</option>
+            <option value="sql">Constipation</option>
+            <option value="sql">Palpitations</option>
         </select>
     </form>
 
@@ -151,9 +161,6 @@ function selectedItemListDel(){
 }
 
 
-
-@* SymtomList() *@
-
 function SymtomList(){
 
     $.ajax({
@@ -161,8 +168,18 @@ function SymtomList(){
             type: "POST",
             data: {arrData: selectedItems },
             success: function(result) {
-                console.log(result)
-                window.location.href = "https://localhost:5001/ResultPage?disease="+result;
+                var disease = "";
+                var accuracy = "";
+                for(i = 0; i<result.length; i++){
+                    if((result[i]>='A' && result[i]<='Z') || (result[i]>='a' && result[i]<='z') || result[i]==' '){
+                        disease += result[i]; 
+                    }
+                    else{
+                        accuracy += result[i]
+                    }
+                }
+
+                window.location.href = "https://localhost:5001/ResultPage?disease="+disease+"&accuracy="+accuracy;
             },
             error: function() {
               alert("I am sorry something wrong");  

@@ -1,6 +1,7 @@
 @{
 Layout = "~/Views/Shared/_Layout.cshtml";
 }
+@model mainServer.Controllers.Result_Model
 
 
 <div class="result">
@@ -9,17 +10,13 @@ Layout = "~/Views/Shared/_Layout.cshtml";
             <h2>Result</h2>
             <br><br><br>
             <h3>Predicted Disease:</h3>
-            <a id="disease_name" class="a_class">Malaria</a>
+            <a id="disease_name" class="a_class">@Model.disease</a>
             <br>
             <h3>Accuracy:</h3>
-            <a class="a_class" id="accuracy_id">88%</a>
+            <a class="a_class">@Model.accuracy</a>
             <br>
             <a href="/DoctorList" class="consult_doctor">Consult Doctor</a>
         </div>
     </div>
 
 </div>
-
-
-
-
