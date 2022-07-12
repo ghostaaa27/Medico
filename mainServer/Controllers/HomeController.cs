@@ -16,14 +16,25 @@ namespace MediShare.Controllers
         public string user_address {get; set;}
         public string phone {get; set;}
     }
+    public class SessionCheckerModel{
+        public string email{get; set;}
+    }
     public class HomeController : BaseController
     {
 
 
         public IActionResult Index(){
 
+            String s_email = GetUserEMAIL();
 
-            return View("~/Views/landing_page.cshtml");
+        
+            SessionCheckerModel sessionCheckerModel = new SessionCheckerModel();
+            sessionCheckerModel.email = s_email;
+
+            if(!string.IsNullOrEmpty(s_email)){
+                return View("~/Views/home_page.cshtml", sessionCheckerModel);
+            }
+            return View("~/Views/landing_page.cshtml", sessionCheckerModel);
         }
 
 

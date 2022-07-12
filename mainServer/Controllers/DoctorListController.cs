@@ -1,3 +1,4 @@
+using MediShare.Controllers;
 using Microsoft.AspNetCore.Mvc;
 using Server2;
 
@@ -8,7 +9,15 @@ namespace mainServer.Controllers{
         
         public IActionResult Index(){
             
-            return View("~/Views/doctor_list_page.cshtml");
+            
+            string s_email = GetUserEMAIL();
+
+
+            SessionCheckerModel sessionCheckerModel = new SessionCheckerModel();
+            sessionCheckerModel.email = s_email;
+
+        
+            return View("~/Views/doctor_list_page.cshtml", sessionCheckerModel);
         }
     }
 }
