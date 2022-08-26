@@ -1,14 +1,27 @@
-# from unicodedata import name
-# import numpy as np
+import numpy as np
 import pandas as pd
-from flask import Flask, request, jsonify
+from flask import Flask, request
+from flask_cors import CORS
 
-# app = Flask(__name__)
+app = Flask(__name__)
+CORS(app)
 
 
-# @app.route('/hello')
+@app.route('/predicted_disease', methods=['POST'])
 def predicted_disease():
-    print("hello")
+    
+    data = request.form.getlist("arrData[]")
+    psymptoms = []
+    for i in data:
+        i = i.lower()
+        i = i.replace(' ','_')
+        psymptoms.append(i)
+    print(psymptoms)
+        
+        
+        
+        
+        
     
     l1=['itching','skin_rash','nodal_skin_eruptions','continuous_sneezing','shivering','chills','joint_pain',
         'stomach_pain','acidity','ulcers_on_tongue','muscle_wasting','vomiting','burning_micturition','spotting_ urination','fatigue',
@@ -90,12 +103,12 @@ def predicted_disease():
     gnb=gnb.fit(X,np.ravel(y))
     from sklearn.metrics import accuracy_score
     y_pred = gnb.predict(X_test)
-    print(accuracy_score(y_test, y_pred))
-    print(accuracy_score(y_test, y_pred, normalize=False))
+    # print(accuracy_score(y_test, y_pred))
+    # print(accuracy_score(y_test, y_pred, normalize=False))
 
 
 
-    psymptoms = ['skin_rash','chills','joint_pain', 'fatigue', 'nausea']
+    # psymptoms = ['skin_rash','chills','joint_pain', 'fatigue', 'nausea']
 
     for k in range(0,len(l1)):
         for z in psymptoms:
@@ -107,35 +120,41 @@ def predicted_disease():
     inputtest = [l2]
     predict = gnb.predict(inputtest)
     predicted=predict[0]
-    print(predicted)
-
+    # print(predicted)
+    accuracy = gnb.score(inputtest, predict) * 100
+    
+    
+    
+    
+    d_name = ""
     h='no'
     for a in range(0,len(disease)):
         if(disease[predicted] == disease[a]):
             h='yes'
             break
 
-        if (h=='yes'):
-            print(disease[a])
-        else:
-            print("No disease")
+    if (h=='yes'):
+        d_name = disease[a]
+    else:
+        d_name = "No disease"
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    # d_name = "dangue"
+    # accuracy = 77
+    # result = {d_name, accuracy}
+    return '{}{}'.format(d_name, accuracy)
 
 
+#predicted_disease()
 
 
-
-
-
-predicted_disease()
-
-
-
-
-
-
-
-
-
-# if __name__ == "__main__":
-#     print("starting python flask server")
-#     app.run(port=8000)
+if __name__ == "__main__":
+     print("starting python flask server")
+     app.run(port=8000)
