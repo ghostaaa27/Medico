@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "5tsimKXYJVllNJWeM0z9BUeWg7L1UIENEOY5G6NADA0=",
+  "Hash": "zvraQ2rMKTPoDdVb9t39KV6CndJS1Dtn9K+0G491klc=",
   "Source": "MediShare",
   "BasePath": "_content/MediShare",
   "Mode": "Default",
@@ -3993,6 +3993,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\websiteimages\\landing_page_image.png"
+    },
+    {
+      "Identity": "C:\\projects\\Medico\\mainServer\\wwwroot\\websiteimages\\logo_2.PNG",
+      "SourceId": "MediShare",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\projects\\Medico\\mainServer\\wwwroot\\",
+      "BasePath": "_content/MediShare",
+      "RelativePath": "websiteimages/logo_2.PNG",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\websiteimages\\logo_2.PNG"
     },
     {
       "Identity": "C:\\projects\\Medico\\mainServer\\wwwroot\\websiteimages\\logo.png",

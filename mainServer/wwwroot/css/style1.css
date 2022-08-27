@@ -60,12 +60,12 @@ header .subdiv2 {
     font-weight: 300;
     position: relative;
     /* right: 75%; */
-    left: 10%;
+    left: 8.5%;
 }
 
 
 
-header .header_login_button {
+/* header .header_login_button {
     display: inline-block;
     padding: 8px 20px;
     background: #017143;
@@ -75,15 +75,26 @@ header .header_login_button {
     letter-spacing: 1px;
     text-decoration: none;
     position: absolute;
-    left: 90%;
+    left: 86%;
 }
 .header_login_button:hover {
     background-color: #009578;
     color: white;
     transition: .5s;
     cursor: pointer;
-}
+} */
 
+.header_login_button{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 20px;
+    background: #017143;
+    color: #fff;
+    border-radius: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
 
 
 
@@ -106,8 +117,6 @@ header .header_login_button {
 
 .content .textBox {
     position: relative;
-    /* max-width: 600px; */
-    /* margin-right: 50px; */
     max-width: 100%;
     margin-right: 10%;
 }
@@ -143,15 +152,11 @@ header .header_login_button {
 }
 
 .content .imgBox {
-    /* width: 300px; */
     display: flex;
     justify-content: flex-end;
     margin-right: 10%;
-    /* padding-right: -10px; */
-    /* margin-top: 50px; */
-    /* height: 500px; */
-    /* max-width: 500px;
-    max-height: 500px; */
+    height: 500px;
+    width: 500px;
 }
 
 /* .content .imgBox landing_page_image {
