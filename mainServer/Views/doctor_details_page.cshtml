@@ -1,6 +1,7 @@
 @{
-    Layout = "~/Views/Shared/_Layout.cshtml";
+    Layout = "~/Views/Shared/_Layout_3.cshtml";
 }
+
 
 
 <div class="doctor_details_page">
@@ -9,16 +10,22 @@
             <h2>Doctor Profile</h2>
             <br><br><br>
             <h3>Name</h3>
-            <a class="doctor_details_a_class">Dr Selina Begun</a>
+            @{
+                <a class="doctor_details_a_class">@Model.name</a>
+            }
             <br>
             <h3>Institute</h3>
-            <a class="doctor_details_a_class">CMH Hospital</a>
+            @{
+                <a class="doctor_details_a_class">@Model.institute</a>
+            }
             <br>
             <h3>Address</h3>
-            <a class="doctor_details_a_class">Cantonment, Kurmitola</a>
+            @{
+                <a class="doctor_details_a_class">@Model.address</a>
+            }
             <br>
             <div>
-                <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
             <span class="fa fa-star checked"></span>
             <span class="fa fa-star checked"></span>
             <span class="fa fa-star checked"></span>
@@ -27,3 +34,29 @@
         </div>
 
     </div>
+
+
+
+
+
+<script>
+
+    @* DoctorDetails(); *@
+    function DoctorDetails(){
+
+    $.ajax({
+            type : "GET",
+            url : "/DoctorDetails/Ddetails",
+            success : function(response){
+                
+                console.log(response['name'])
+                document.getElementById('name').innerHTML = response['name'].text;
+                document.getElementById('institute').innerHTML = response['institute'];
+                document.getElementById('address').innerHTML = "dhaka";
+            },
+            failure : function(response){
+                alert(response);
+            }
+        });
+}
+</script>

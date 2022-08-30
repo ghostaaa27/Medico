@@ -3,45 +3,8 @@
 }
 
 
+
 @* <div class="doctorlist">
-    <div class="container3">
-    <div class="card3">
-    <div class="doctorlisttitle">
-    <h1>
-    Dr Janangir Kabir</h1>
-    </div>
-    <div class="des">
-    <p>Dhaka Medical College Hospital</p>
-    <a href="#">show Details</a>
-    </div>
-    </div>
-    <div class="card3">
-    <div class="doctorlisttitle">
-    <h1>
-    Dr Salim Mollah</h1>
-    </div>
-    <div class="des">
-    <p>CMH Hospital</p>
-    <a href="#">Show Details</a>
-    </div>
-    </div>
-    <div class="card3">
-    <div class="doctorlisttitle">
-    <h1>
-    Dr Selina Begum</h1>
-    </div>
-    <div class="des">
-    <p>Square Hospital</p>
-    <a href="#">Show Details</a>
-    </div>
-    </div>
-    </div>
-    </div> *@
-
-
-
-
-<div class="doctorlist">
     <div class="container3">
         <div class="card3">
                 <div class="card_list">
@@ -79,4 +42,56 @@
         </div>
     </div>
 
+</div> *@
+
+
+
+
+
+
+
+
+<div class="doctorlist">
+    <div class="container3">
+        <div class="card3" id="card3">
+                
+        </div>
+    </div>
+
 </div>
+
+
+<script>
+
+DoctorList();
+
+function DoctorList(){
+
+    $.ajax({
+            type : "GET",
+            url : "/DoctorList/Dlist",
+            success : function(response){
+                var card_container = $("#card3");
+                card_container.empty();
+
+
+                $.each(response, function(i,item){
+                    console.log(item)
+                    $('<div class="card_list">').append(
+                        $('<div class="doctorlisttitle">').append(
+                            $('<h2>').text(item.name)
+                        ),
+                        $('<div class="des">').append(
+                            $('</p>').text(item.institute),
+                            $('<a href="/DoctorDetails?id='+item.id+'&name='+item.name+'&institute='+item.institute+'&address='+item.address+'">').text("Show Details")
+                        )
+                     ).appendTo(card_container);
+                });
+            },
+            failure : function(response){
+                alert(response);
+            }
+        });
+}
+
+</script>
