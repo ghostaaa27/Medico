@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "OZ2BeX7lgF+jUmSJyJzdrx/EmAcYpRcTcYeryaX/f/c=",
+  "Hash": "2GWmsbqGmJqu/IiwjswMy79+Fzbj0xdaxpxTlZbRUlc=",
   "Source": "MediShare",
   "BasePath": "_content/MediShare",
   "Mode": "Default",
@@ -3978,6 +3978,40 @@
       "OriginalItemSpec": "wwwroot\\plugins\\timepicker\\bootstrap-timepicker.min.js"
     },
     {
+      "Identity": "C:\\projects\\Medico\\mainServer\\wwwroot\\websiteimages\\asp1.PNG",
+      "SourceId": "MediShare",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\projects\\Medico\\mainServer\\wwwroot\\",
+      "BasePath": "_content/MediShare",
+      "RelativePath": "websiteimages/asp1.PNG",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\websiteimages\\asp1.PNG"
+    },
+    {
+      "Identity": "C:\\projects\\Medico\\mainServer\\wwwroot\\websiteimages\\asp2.PNG",
+      "SourceId": "MediShare",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\projects\\Medico\\mainServer\\wwwroot\\",
+      "BasePath": "_content/MediShare",
+      "RelativePath": "websiteimages/asp2.PNG",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\websiteimages\\asp2.PNG"
+    },
+    {
       "Identity": "C:\\projects\\Medico\\mainServer\\wwwroot\\websiteimages\\doctor.png",
       "SourceId": "MediShare",
       "SourceType": "Discovered",
@@ -4044,6 +4078,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\websiteimages\\logo.png"
+    },
+    {
+      "Identity": "C:\\projects\\Medico\\mainServer\\wwwroot\\websiteimages\\ml1.PNG",
+      "SourceId": "MediShare",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\projects\\Medico\\mainServer\\wwwroot\\",
+      "BasePath": "_content/MediShare",
+      "RelativePath": "websiteimages/ml1.PNG",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\websiteimages\\ml1.PNG"
     }
   ]
 }

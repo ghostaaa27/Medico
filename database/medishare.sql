@@ -1,8 +1,8 @@
--- MySQL dump 10.13  Distrib 8.0.25, for Win64 (x86_64)
+-- MySQL dump 10.13  Distrib 8.0.29, for Win64 (x86_64)
 --
--- Host: 127.0.0.1    Database: medishare
+-- Host: 127.0.0.2    Database: medico
 -- ------------------------------------------------------
--- Server version	8.0.25
+-- Server version	8.0.29
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -16,91 +16,30 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Table structure for table `cart`
+-- Table structure for table `doctordetails`
 --
 
-DROP TABLE IF EXISTS `cart`;
+DROP TABLE IF EXISTS `doctordetails`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
-CREATE TABLE `cart` (
-  `user_id` varchar(100) NOT NULL,
-  `product_id` varchar(100) NOT NULL,
-  `price` int DEFAULT NULL,
-  `file_name` varchar(145) DEFAULT NULL,
-  `quantity` int DEFAULT NULL,
-  `product_name` varchar(45) DEFAULT NULL,
-  PRIMARY KEY (`user_id`,`product_id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+CREATE TABLE `doctordetails` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `speciality` varchar(50) DEFAULT NULL,
+  `address` varchar(45) DEFAULT NULL,
+  `institute` varchar(45) DEFAULT NULL,
+  `name` varchar(45) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `cart`
+-- Dumping data for table `doctordetails`
 --
 
-LOCK TABLES `cart` WRITE;
-/*!40000 ALTER TABLE `cart` DISABLE KEYS */;
-/*!40000 ALTER TABLE `cart` ENABLE KEYS */;
-UNLOCK TABLES;
-
---
--- Table structure for table `orders`
---
-
-DROP TABLE IF EXISTS `orders`;
-/*!40101 SET @saved_cs_client     = @@character_set_client */;
-/*!50503 SET character_set_client = utf8mb4 */;
-CREATE TABLE `orders` (
-  `product_id` varchar(500) NOT NULL,
-  `product_name` varchar(11145) DEFAULT NULL,
-  `quantity` int DEFAULT NULL,
-  `status` varchar(45) DEFAULT NULL,
-  `order_date` varchar(45) DEFAULT NULL,
-  `user_id` varchar(100) DEFAULT NULL,
-  PRIMARY KEY (`product_id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
-/*!40101 SET character_set_client = @saved_cs_client */;
-
---
--- Dumping data for table `orders`
---
-
-LOCK TABLES `orders` WRITE;
-/*!40000 ALTER TABLE `orders` DISABLE KEYS */;
-INSERT INTO `orders` VALUES ('miAY4F5vXfRR','Penicillin',2,'Payment Completed','2021-07-18 20:36:36','P5AsDj3gKgTfQXwq');
-/*!40000 ALTER TABLE `orders` ENABLE KEYS */;
-UNLOCK TABLES;
-
---
--- Table structure for table `product_list`
---
-
-DROP TABLE IF EXISTS `product_list`;
-/*!40101 SET @saved_cs_client     = @@character_set_client */;
-/*!50503 SET character_set_client = utf8mb4 */;
-CREATE TABLE `product_list` (
-  `product_id` varchar(100) NOT NULL,
-  `product_name` varchar(45) DEFAULT NULL,
-  `category` varchar(45) DEFAULT NULL,
-  `quantity` int DEFAULT NULL,
-  `upload_date` varchar(45) DEFAULT NULL,
-  `number_of_orders` int DEFAULT NULL,
-  `status` varchar(45) DEFAULT NULL,
-  `user_shop_id` varchar(45) NOT NULL,
-  `per_unit_price` int DEFAULT NULL,
-  `remark` varchar(20) DEFAULT NULL,
-  `file_name` varchar(45) DEFAULT NULL,
-  PRIMARY KEY (`product_id`,`user_shop_id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
-/*!40101 SET character_set_client = @saved_cs_client */;
-
---
--- Dumping data for table `product_list`
---
-
-LOCK TABLES `product_list` WRITE;
-/*!40000 ALTER TABLE `product_list` DISABLE KEYS */;
-INSERT INTO `product_list` VALUES ('bQOLG7R5E0zM','napa extra','Everyday Drugs',30,'2021-07-04 13:25:51',0,'pending','P5AsDj3gKgTfQXwq',1,'sale','637610019515155295.jpg'),('bvabreO8Vrfk','Ace Plus','Everyday Drugs',10,'2021-07-04 14:07:19',0,'pending','P5AsDj3gKgTfQXwq',4,'sale','637610044390650975.jpg'),('miAY4F5vXfRR','Penicillin','Other Drugs',10,'2021-07-05 14:15:02',0,'pending','P5AsDj3gKgTfQXwq',135,'sale','637610913021718624.jpg'),('UBezsTjiO422','Antacid','Everyday Drugs',50,'2021-07-05 13:10:47',0,'pending','P5AsDj3gKgTfQXwq',3,'sale','637610874478512665.jpg'),('XbrAJF0UbCIT','Olmesan plus','Heart Drugs',199,'2021-07-04 14:09:26',0,'pending','P5AsDj3gKgTfQXwq',9,'sale','637610045666514817.jpg');
-/*!40000 ALTER TABLE `product_list` ENABLE KEYS */;
+LOCK TABLES `doctordetails` WRITE;
+/*!40000 ALTER TABLE `doctordetails` DISABLE KEYS */;
+INSERT INTO `doctordetails` VALUES (1,'N/A','Cantonment, Kurmitola','CMH Hospital','Dr Salim Mollah'),(2,'N/A','Dhaka Medical','Dhaka Medical College Hospital','Dr Jahangir Kabir'),(3,'N/A','Panthopath','Square Hospital','Dr Selina Begum');
+/*!40000 ALTER TABLE `doctordetails` ENABLE KEYS */;
 UNLOCK TABLES;
 
 --
@@ -145,4 +84,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2021-07-18 20:46:39
+-- Dump completed on 2022-09-05 23:07:31

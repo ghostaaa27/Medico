@@ -51,7 +51,7 @@ namespace Server2 {
             List<Claim> claims = new List<Claim>();  
             Claim _claim;  
             _claim = new Claim(ClaimTypes.Name, user.email);  
-            claims.Add(_claim);  
+            claims.Add(_claim);
             
             // User ID
             _claim = new Claim("user_id", user.user_id);     // Put user_id in cookie
