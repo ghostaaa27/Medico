@@ -41,38 +41,44 @@ Here flask and asp.net core cross api is used.
 
 
 ![image](https://user-images.githubusercontent.com/78086376/199029013-f3feb183-976e-4b68-bac6-46f29bacf624.png)
+
 Landing Page
 
 
 ![image](https://user-images.githubusercontent.com/78086376/199029111-a4806aef-9683-415e-a7f7-2cca42b1ed65.png)
- Registration Page
+
+Registration Page
  
  
  ![image](https://user-images.githubusercontent.com/78086376/199029203-76218c36-8ded-4c93-b177-241214c4c8eb.png)
+
 Login Page
 
 
 ![image](https://user-images.githubusercontent.com/78086376/199029244-442878c0-dfe0-41e2-b1da-cff8a2a8023d.png)
+
 Home Page
 
 
 ![image](https://user-images.githubusercontent.com/78086376/199029387-a24dbcc4-a38c-41e9-97cf-1a13b671b6d0.png)
+
 Symtoms select Page
 
 
 ![image](https://user-images.githubusercontent.com/78086376/199029443-88f3d5fa-130b-4928-a3a6-c2ef79a81375.png)
+
 Result Page
 
 
 
 ![image](https://user-images.githubusercontent.com/78086376/199029291-8a28a745-9283-4957-b0e1-a6f8f424e7e1.png)
+
 Doctors List Page
 
 
 
 
 ![image](https://user-images.githubusercontent.com/78086376/199029912-bc1dd823-0064-46b4-bd2d-0ddd682b8b76.png)
-
 
 Doctor’s Profile Page
 
