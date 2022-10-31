@@ -71,7 +71,9 @@ Doctors List Page
 
 
 
-![Uploading image.png…]()
+![image](https://user-images.githubusercontent.com/78086376/199029912-bc1dd823-0064-46b4-bd2d-0ddd682b8b76.png)
+
+
 Doctor’s Profile Page
 
 
