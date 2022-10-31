@@ -1,7 +1,7 @@
 # Medico
  
-This is a disease prediction website developed using asp.net core web api.
-In this site, you have to input your symtoms and our machine learning algorithm will predict the disease.
+**This is a disease prediction website developed using asp.net core web api.
+In this site, you have to input your symtoms and our machine learning algorithm will predict the disease.**
 
 **Technology used:
 1. ASP.net core web API
